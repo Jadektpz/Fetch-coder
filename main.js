@@ -1,4 +1,4 @@
-let url = 'https://jadektpz.github.io/Fetch-coder/';
+let url = 'https://jadektpz.github.io/fetch-coder/';
         fetch(url)
             .then( response => response.json() )
             .then( data => mostrarData(data) )
